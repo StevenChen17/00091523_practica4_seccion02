@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  border: 0;
+}
+#Title{
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+#description{
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px ;
+}
+#label{
+  font-family: sans-serif;
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
+}
+#input{
+  border: 2px solid #2472e7; 
+  padding: 10px;            
+  border-radius: 5px; 
+  margin-left: 10px;
+}
+#submit{
+  border: 2px solid #2472e7; 
+  padding: 10px;            
+  border-radius: 5px; 
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: #2472e7;
+  color: white;
+}
+#input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #2472e7;
+}
+
+
